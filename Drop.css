@@ -1,0 +1,95 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+}
+.head{
+    align-items: center;
+    font-weight: 900;
+    padding: 10px;
+    color:cornflowerblue;
+    font-style: italic;
+}
+.wel{
+    color: goldenrod;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: inherit;
+    font-weight: 900;
+}
+.octa{
+    color: red;
+    align-items: center;
+    font-weight: 900;
+    font-size: 100px;
+    text-shadow: 2px 2px 5px  yellow;
+}
+.p{
+    color: red;
+    align-items: center;
+    font-weight: 900;
+    font-size: 30px;
+}
+button{
+    padding: 12px;
+    border: 1px solid #efc9af;
+    border-radius: 4px;
+    background-color: black;
+    color: chocolate;
+    font-weight: bold;
+    margin-left: 100px;
+   
+
+}
+
+footer{
+    color:cyan;
+    font-size: 20px;
+}
+body{
+    background-image: url(oc.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menubar{
+    background-color:gold;
+    text-align: center;
+    top: 0px;
+
+}
+.menubar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menubar ul li{
+        width: 120px;
+        margin: 15px;
+        padding: 15px;
+        font-weight: 400;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color:blue;
+   
+}
+.active, .menubar ul li :hover {
+    background-color: #2bab0d;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.submenu{
+    display: none;
+}
+.menubar ul li :hover .submenu{
+    display: block;
+    position: absolute;
+    background-color: rgb(0, green, 0);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.menubar .fa{
+    margin-right: 8px;
+}
